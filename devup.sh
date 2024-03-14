@@ -7,3 +7,7 @@ mkdir ./src
 touch {license,readme,contributing}.md
 touch .gitignore
 git init
+
+LANG=$(gum choose "Python" "Javascript" "Rust")
+
+if LANG =
