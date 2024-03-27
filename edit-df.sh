@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-FILE=$(fzf $HOME/dotfiles/)
+FILE=$(gum file -a ~/dotfiles)
 $EDITOR $FILE
